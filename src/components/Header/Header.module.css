@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Segoe UI', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 110px;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.logoYellow {
+  color: #FFD400;
+}
+
+.logoGreen {
+  color: #00C2C2;
+}
+
+.delivery h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.delivery p {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
+
+/* 🔥 Enhanced Search Box */
+.search {
+  flex: 1;
+  margin: 0 48px;
+  max-width: 700px;
+  padding: 16px 24px;
+  font-size: 18px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  height: 58px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #00C2C2;
+}
+
+/* ✨ Placeholder style */
+.search::placeholder {
+  font-size: 18px;
+  color: #888;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.login {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.cartText {
+  display: inline;
+}
+
+.cartCount {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: #ff4d4f;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 9999px;
+}
