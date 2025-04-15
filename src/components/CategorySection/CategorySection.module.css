@@ -1,0 +1,27 @@
+.categoryWrapper {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+    background: #fff;
+    border-top: 1px solid #eee;
+  }
+  
+  .categoryItem {
+    text-align: center;
+    min-width: 100px;
+    flex-shrink: 0;
+  }
+  
+  .categoryImage {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .categoryName {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
